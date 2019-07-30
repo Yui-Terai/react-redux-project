@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import OrderList from "../components/OrderButton.jsx";
+import OrderList from "../components/OrderList.jsx";
 import deleteTableItem from "../actions/deleteTableItem.js";
 
 const mapStateToProps = state => {

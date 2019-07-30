@@ -4,8 +4,8 @@ const Overview = props => {
   const style = {
     width: 960,
     height: 160,
-    backgoundColor: "red",
-    taxtAlign: "center"
+    backgroundColor: "red",
+    textAlign: "center"
   };
 
   let numTables = 0;

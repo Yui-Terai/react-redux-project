@@ -1,5 +1,5 @@
 import React from "react";
-import OrderButtonContainer from "../containers.OrderButtonContainer.js";
+import OrderButtonContainer from "../containers/OrderButtonContainer.js";
 
 const Menu = () => {
   const style = {

@@ -13,7 +13,9 @@ const OrderList = props => {
       {props.items.map((items, i) => {
         return (
           <div>
-            <button onClick={() => props.onDelete(props.id, i)}>x</button>
+            <button onClick={() => props.onDelete(props.selectedTable, i)}>
+              x
+            </button>
             &nbsp; {items.name} ] | ${items.price}
           </div>
         );

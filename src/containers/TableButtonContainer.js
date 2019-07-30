@@ -1,10 +1,10 @@
 import { connect } from "react-redux";
-import TableButton from "../components/ToggleTable.jsx";
+import TableButton from "../components/TableButton.jsx";
 import selectTable from "../actions/selectTable.js";
 
 const mapStateToProps = state => {
   return {
-    selectTable: state.selectTable,
+    selectedTable: state.selectedTable,
     tableStatusData: state.tableStatusData
   };
 };

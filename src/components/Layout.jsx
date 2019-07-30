@@ -5,7 +5,7 @@ const Layout = () => {
   const style = {
     display: "flex",
     alignContent: "space-around",
-    jusifyContent: "center",
+    justifyContent: "center",
     flexWrap: "wrap",
     width: 640,
     height: 480,
