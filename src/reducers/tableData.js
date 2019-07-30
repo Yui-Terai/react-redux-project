@@ -20,14 +20,14 @@ const tableData = (state = initialTableData, action) => {
       stateCopy[action.tableId].push(action.item);
       return stateCopy;
     case DELETE_TABLE_ITEM:
-      var stateCopy = [];
+      stateCopy = [];
       for (let i = 0; i < 16; i++) {
         stateCopy.push(state[i].slice());
       }
       stateCopy[action.tableId].splice(action.id, 1);
       return stateCopy;
     case TOGGLE_TABLE:
-      var stateCopy = [];
+      stateCopy = [];
       for (let i = 0; i < 16; i++) {
         stateCopy.push(state[i].slice());
       }
